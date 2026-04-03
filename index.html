@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Rahul Chavan | Shashwat Ayurvedic Clinic, Satara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --brand-green: #2D5A27;
+            --brand-gold: #C5A059;
+            --soft-cream: #FDFCF8;
+        }
+        body { font-family: 'Inter', sans-serif; background-color: var(--soft-cream); }
+        .font-serif { font-family: 'Crimson Pro', serif; }
+        .text-brand-green { color: var(--brand-green); }
+        .bg-brand-green { background-color: var(--brand-green); }
+        .bg-brand-gold { background-color: var(--brand-gold); }
+        
+        /* Mobile optimization: Prevent horizontal scroll */
+        html, body { overflow-x: hidden; scroll-behavior: smooth; }
+
+        /* Custom Accordion Style */
+        details summary::-webkit-details-marker { display:none; }
+    </style>
+</head>
+<body class="pb-16 md:pb-0"> <div class="hidden md:flex bg-brand-green text-white py-2 px-8 justify-between text-xs font-light">
+        <span>📍 Satara, Maharashtra, India</span>
+        <span>📞 +91-XXXXX XXXXX | ✉️ contact@shashwatayurvedic.com</span>
+    </div>
+
+    <nav class="flex items-center justify-between px-6 py-4 bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="flex items-center gap-3">
+            <img src="your-logo-path.png" alt="Shashwat Logo" class="h-10 md:h-14">
+        </div>
+        
+        <div class="hidden lg:flex gap-8 font-semibold text-xs uppercase tracking-widest text-gray-600">
+            <a href="#home" class="hover:text-brand-green transition">Home</a>
+            <a href="#treatments" class="hover:text-brand-green transition">Treatments</a>
+            <a href="#faq" class="hover:text-brand-green transition">FAQ</a>
+            <a href="#contact" class="hover:text-brand-green transition">Contact</a>
+        </div>
+
+        <button class="bg-brand-green text-white text-xs md:text-sm px-4 py-2 md:px-6 md:py-3 rounded-full font-bold shadow-lg hover:scale-105 transition active:scale-95">
+            BOOK APPOINTMENT
+        </button>
+    </nav>
+
+    <section id="home" class="relative py-16 md:py-28 px-6 flex flex-col lg:flex-row items-center justify-center gap-12 max-w-7xl mx-auto">
+        <div class="flex-1 text-center lg:text-left">
+            <h1 class="text-4xl md:text-6xl font-serif font-bold text-slate-800 leading-tight mb-6">
+                Experience Holistic Healing with <br>
+                <span class="text-brand-green italic">Authentic Ayurveda.</span>
+            </h1>
+            <p class="text-gray-600 text-lg md:text-xl mb-10 max-w-lg mx-auto lg:mx-0">
+                Rediscover wellness in Satara with expert Ayurvedic care and traditional healing practices.
+            </p>
+            <a href="#contact" class="inline-block bg-brand-gold text-white px-8 py-4 rounded-full text-lg font-bold shadow-xl hover:shadow-2xl transition">
+                Schedule Your Consultation
+            </a>
+        </div>
+        <div class="flex-1 relative flex justify-center">
+            <div class="absolute inset-0 bg-green-100 rounded-full blur-3xl opacity-50 scale-75"></div>
+            <div class="relative w-72 h-72 md:w-96 md:h-96 rounded-full border-[10px] border-white shadow-2xl overflow-hidden z-10">
+                <img src="dr-rahul-photo.jpg" alt="Dr. Rahul Chavan" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white border-y border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="text-3xl font-bold text-brand-green">10+</h3>
+                <p class="text-gray-500 text-xs uppercase tracking-widest mt-2">Years Experience</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-brand-green">5000+</h3>
+                <p class="text-gray-500 text-xs uppercase tracking-widest mt-2">Happy Patients</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-brand-green">100%</h3>
+                <p class="text-gray-500 text-xs uppercase tracking-widest mt-2">Natural Medicines</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-brand-green">Satara</h3>
+                <p class="text-gray-500 text-xs uppercase tracking-widest mt-2">Main Center</p>
+            </div>
+        </div>
+    </section>
+  
+  <section id="results" class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-serif font-bold mb-4">Treatment Results</h2>
+                <p class="text-gray-500">Real recovery journeys through authentic Ayurveda</p>
+                <div class="h-1 w-20 bg-brand-gold mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-4">
+                    <h3 class="font-bold text-xl text-brand-green">Skin Treatment (Psoriasis)</h3>
+                    <div class="flex gap-2 h-64">
+                        <div class="flex-1 bg-gray-200 rounded-2xl relative overflow-hidden group">
+                            <div class="absolute top-2 left-2 bg-black/50 text-white text-[10px] px-2 py-1 rounded">BEFORE</div>
+                            <img src="before-skin.jpg" alt="Before" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex-1 bg-brand-green/10 rounded-2xl relative overflow-hidden group border-2 border-brand-green">
+                            <div class="absolute top-2 left-2 bg-brand-green text-white text-[10px] px-2 py-1 rounded">AFTER 3 MONTHS</div>
+                            <img src="after-skin.jpg" alt="After" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 italic">"Remarkable improvement in skin texture through Shodhana therapy."</p>
+                </div>
+
+                <div class="space-y-4">
+                    <h3 class="font-bold text-xl text-brand-green">Joint Pain Management</h3>
+                    <div class="flex gap-2 h-64">
+                        <div class="flex-1 bg-gray-200 rounded-2xl relative overflow-hidden">
+                            <div class="absolute top-2 left-2 bg-black/50 text-white text-[10px] px-2 py-1 rounded">BEFORE</div>
+                            <img src="before-joint.jpg" alt="Before" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex-1 bg-brand-green/10 rounded-2xl relative overflow-hidden border-2 border-brand-green">
+                            <div class="absolute top-2 left-2 bg-brand-green text-white text-[10px] px-2 py-1 rounded">AFTER BASTI</div>
+                            <img src="after-joint.jpg" alt="After" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 italic">"Restored mobility and significant reduction in swelling."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="treatments" class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-serif font-bold mb-4">Our Specialized Treatments</h2>
+            <div class="h-1 w-20 bg-brand-gold mx-auto mb-12"></div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-soft-cream p-8 rounded-3xl border border-gray-100 hover:border-brand-green transition-all group">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-green transition">
+                        <i data-lucide="leaf" class="text-brand-green group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Panchakarma</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">A complete body detoxification process to restore balance and vitality.</p>
+                </div>
+
+                <div class="bg-soft-cream p-8 rounded-3xl border border-gray-100 hover:border-brand-green transition-all group">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-green transition">
+                        <i data-lucide="activity" class="text-brand-green group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Joint Pain Relief</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Effective Ayurvedic solutions for Arthritis and chronic joint discomfort.</p>
+                </div>
+
+                <div class="bg-soft-cream p-8 rounded-3xl border border-gray-100 hover:border-brand-green transition-all group">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-green transition">
+                        <i data-lucide="heart" class="text-brand-green group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Digestive Health</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Natural remedies for acidity, gas, and long-term digestive wellness.</p>
+                </div>
+
+                <div class="bg-soft-cream p-8 rounded-3xl border border-gray-100 hover:border-brand-green transition-all group">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-green transition">
+                        <i data-lucide="smile" class="text-brand-green group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3">Stress Relief</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Calm the mind and nervous system through traditional therapy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20 px-6 bg-gray-50">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-center mb-10">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <details class="group bg-white rounded-2xl shadow-sm border border-gray-100 transition-all overflow-hidden" open>
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-bold text-brand-green">
+                        How long does a Panchakarma cycle take?
+                        <i data-lucide="chevron-down" class="group-open:rotate-180 transition"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 text-sm leading-relaxed">
+                        A typical cycle takes 7 to 21 days depending on your body type (Prakriti) and the depth of detox required. Dr. Rahul Chavan will suggest the best duration after consultation.
+                    </div>
+                </details>
+                <details class="group bg-white rounded-2xl shadow-sm border border-gray-100 transition-all overflow-hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-bold text-brand-green">
+                        Is Ayurvedic treatment safe with Allopathic medicine?
+                        <i data-lucide="chevron-down" class="group-open:rotate-180 transition"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 text-sm leading-relaxed">
+                        Yes, Ayurveda can often be taken alongside allopathy as a complementary therapy. We always evaluate your current medications to ensure a safe and integrated approach.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="rounded-3xl overflow-hidden shadow-xl border border-gray-100 h-96 bg-gray-100 relative group">
+                <div class="absolute inset-0 flex items-center justify-center text-gray-400">
+                    <p class="italic">Google Maps Location - Satara Clinic View</p>
+                </div>
+                <div class="absolute bottom-6 left-6 bg-white p-6 rounded-2xl shadow-2xl max-w-xs hidden md:block">
+                    <h4 class="font-bold text-brand-green">Visit the Clinic</h4>
+                    <p class="text-xs text-gray-500 mt-2">Shashwat Ayurvedic Clinic, Near Powai Naka, Satara, Maharashtra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-brand-green text-white py-16 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-4xl font-serif font-bold text-brand-gold mb-6">Get In Touch</h2>
+                <p class="text-green-100 mb-8 max-w-sm">
+                    Visit us at Satara's leading Ayurvedic center. We are dedicated to your natural well-being.
+                </p>
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <i data-lucide="map-pin" class="text-brand-gold shrink-0"></i>
+                        <p>Near Powai Naka, Satara, Maharashtra 415001</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="phone" class="text-brand-gold shrink-0"></i>
+                        <p>+91-XXXXX XXXXX</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="instagram" class="text-brand-gold shrink-0"></i>
+                        <p>@shashwat_ayurveda</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-2xl">
+                <form id="contactForm" class="space-y-4">
+                    <input type="text" placeholder="Your Full Name" class="w-full p-4 rounded-xl bg-gray-50 border border-gray-200 text-slate-800 focus:outline-none focus:border-brand-gold transition">
+                    <input type="tel" placeholder="Mobile Number" class="w-full p-4 rounded-xl bg-gray-50 border border-gray-200 text-slate-800 focus:outline-none focus:border-brand-gold transition">
+                    <textarea placeholder="Tell us about your concern..." rows="4" class="w-full p-4 rounded-xl bg-gray-50 border border-gray-200 text-slate-800 focus:outline-none focus:border-brand-gold transition"></textarea>
+                    <button type="submit" class="w-full bg-brand-gold text-white font-bold py-4 rounded-xl hover:bg-yellow-700 transition uppercase tracking-widest">
+                        Submit Request
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="mt-20 pt-8 border-t border-white/10 text-center text-xs text-green-200">
+            &copy; 2026 Shashwat Ayurvedic Clinic. All Rights Reserved.
+        </div>
+    </footer>
+
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 flex justify-around p-3 z-[60] shadow-[0_-4px_10px_rgba(0,0,0,0.05)]">
+        <a href="tel:+91XXXXXXXXXX" class="flex flex-col items-center text-brand-green">
+            <i data-lucide="phone-call" class="w-5 h-5"></i>
+            <span class="text-[10px] font-bold mt-1 uppercase">Call</span>
+        </a>
+        <a href="https://wa.me/91XXXXXXXXXX" class="flex flex-col items-center text-green-600">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            <span class="text-[10px] font-bold mt-1 uppercase">WhatsApp</span>
+        </a>
+        <a href="#contact" class="flex flex-col items-center text-brand-gold">
+            <i data-lucide="calendar" class="w-5 h-5"></i>
+            <span class="text-[10px] font-bold mt-1 uppercase">Book</span>
+        </a>
+    </div>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Simple form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you! We will contact you soon for your appointment.');
+        });
+    </script>
+</body>
+</html>
